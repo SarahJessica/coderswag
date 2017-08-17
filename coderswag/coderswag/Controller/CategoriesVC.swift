@@ -17,7 +17,7 @@ class CategoriesVC: UIViewController, UITableViewDataSource, UITableViewDelegate
         super.viewDidLoad()
         categoryTable.dataSource = self
         categoryTable.delegate = self
-        categoryTable.rowHeight = 150
+        categoryTable.rowHeight = 200
     }
 
     
