@@ -13,6 +13,8 @@
 		A9796F651F45BB8300677B06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9796F641F45BB8300677B06 /* Assets.xcassets */; };
 		A9796F681F45BB8300677B06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9796F661F45BB8300677B06 /* LaunchScreen.storyboard */; };
 		A9796F731F45C0D500677B06 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9796F721F45C0D500677B06 /* CategoryCell.swift */; };
+		A9796F751F45EF9300677B06 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9796F741F45EF9300677B06 /* Category.swift */; };
+		A9796F781F45F11900677B06 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9796F771F45F11900677B06 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A9796F671F45BB8300677B06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9796F691F45BB8300677B06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9796F721F45C0D500677B06 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		A9796F741F45EF9300677B06 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		A9796F771F45F11900677B06 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		A9796F5C1F45BB8300677B06 /* coderswag */ = {
 			isa = PBXGroup;
 			children = (
+				A9796F761F45F10800677B06 /* Services */,
 				A9796F711F45C07800677B06 /* Controller */,
 				A9796F701F45C06E00677B06 /* View */,
 				A9796F6F1F45C06700677B06 /* Model */,
@@ -71,6 +76,7 @@
 		A9796F6F1F45C06700677B06 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A9796F741F45EF9300677B06 /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +95,14 @@
 				A9796F5F1F45BB8300677B06 /* CategoriesVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		A9796F761F45F10800677B06 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A9796F771F45F11900677B06 /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +179,8 @@
 				A9796F601F45BB8300677B06 /* CategoriesVC.swift in Sources */,
 				A9796F5E1F45BB8300677B06 /* AppDelegate.swift in Sources */,
 				A9796F731F45C0D500677B06 /* CategoryCell.swift in Sources */,
+				A9796F751F45EF9300677B06 /* Category.swift in Sources */,
+				A9796F781F45F11900677B06 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

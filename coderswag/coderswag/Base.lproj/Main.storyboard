@@ -33,18 +33,18 @@
                                 <rect key="frame" x="0.0" y="69.5" width="375" height="533.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="150" id="G77-on-OGB" customClass="CategoryCell" customModule="coderswag" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="150" id="G77-on-OGB" customClass="CategoryCell" customModule="coderswag" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="G77-on-OGB" id="Bkz-83-x2a">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="149.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="mCT-de-yP2">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="123"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="mCT-de-yP2">
+                                                    <rect key="frame" x="0.0" y="8" width="375" height="133.5"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="HOODIES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2AA-2U-dq7">
-                                                    <rect key="frame" x="121" y="54" width="132" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOODIES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2AA-2U-dq7">
+                                                    <rect key="frame" x="140.5" y="61" width="93" height="27.5"/>
                                                     <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -52,12 +52,13 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="mCT-de-yP2" secondAttribute="trailing" id="EY2-Wd-rbL"/>
-                                                <constraint firstItem="mCT-de-yP2" firstAttribute="top" secondItem="Bkz-83-x2a" secondAttribute="top" id="SAB-FW-35p"/>
+                                                <constraint firstItem="mCT-de-yP2" firstAttribute="top" secondItem="Bkz-83-x2a" secondAttribute="top" constant="8" id="SAB-FW-35p"/>
                                                 <constraint firstItem="2AA-2U-dq7" firstAttribute="centerX" secondItem="mCT-de-yP2" secondAttribute="centerX" id="dXj-Sq-GYg"/>
                                                 <constraint firstItem="mCT-de-yP2" firstAttribute="leading" secondItem="Bkz-83-x2a" secondAttribute="leading" id="fbQ-PX-mMA"/>
                                                 <constraint firstItem="2AA-2U-dq7" firstAttribute="centerY" secondItem="mCT-de-yP2" secondAttribute="centerY" id="lGj-cx-See"/>
-                                                <constraint firstAttribute="bottom" secondItem="mCT-de-yP2" secondAttribute="bottom" id="wMC-tf-T1S"/>
+                                                <constraint firstAttribute="bottom" secondItem="mCT-de-yP2" secondAttribute="bottom" constant="8" id="wMC-tf-T1S"/>
                                             </constraints>
+                                            <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="8" right="0.0"/>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="categoryImage" destination="mCT-de-yP2" id="bx3-Gb-gxx"/>
