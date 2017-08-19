@@ -39,7 +39,7 @@ class DataService {
         Product(title: "Coderswag Badge Shirt Light Grey", price: "£15", imageName: "shirt02.png"),
         Product(title: "Coderswag Logo Shirt Red", price: "£15", imageName: "shirt03.png"),
         Product(title: "Hustle Delegate Grey", price: "£19", imageName: "shirt04.png"),
-        Product(title: "KF Studio Black", price: "£15", imageName: "shirt05.png"),
+        Product(title: "KF Studio Black", price: "£15", imageName: "shirt05.png")
     ]
 
     private let digitalGoods = [Product]()
