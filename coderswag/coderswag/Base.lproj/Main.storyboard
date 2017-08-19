@@ -50,32 +50,17 @@
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GFL-TD-yl7" userLabel="padding hack">
-                                                    <rect key="frame" x="0.0" y="134" width="375" height="16"/>
-                                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="16" id="a3D-4N-54E"/>
-                                                    </constraints>
-                                                </imageView>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="mCT-de-yP2" secondAttribute="trailing" id="EY2-Wd-rbL"/>
                                                 <constraint firstItem="mCT-de-yP2" firstAttribute="top" secondItem="Bkz-83-x2a" secondAttribute="top" constant="8" id="SAB-FW-35p"/>
-                                                <constraint firstAttribute="trailing" secondItem="GFL-TD-yl7" secondAttribute="trailing" id="XrM-k0-Xl1"/>
                                                 <constraint firstItem="2AA-2U-dq7" firstAttribute="centerX" secondItem="mCT-de-yP2" secondAttribute="centerX" id="dXj-Sq-GYg"/>
-                                                <constraint firstItem="GFL-TD-yl7" firstAttribute="leading" secondItem="Bkz-83-x2a" secondAttribute="leading" id="ed3-hF-c0P"/>
                                                 <constraint firstItem="mCT-de-yP2" firstAttribute="leading" secondItem="Bkz-83-x2a" secondAttribute="leading" id="fbQ-PX-mMA"/>
                                                 <constraint firstAttribute="bottom" secondItem="mCT-de-yP2" secondAttribute="bottom" constant="16" id="kGb-h6-seu"/>
                                                 <constraint firstItem="2AA-2U-dq7" firstAttribute="centerY" secondItem="mCT-de-yP2" secondAttribute="centerY" id="lGj-cx-See"/>
-                                                <constraint firstItem="GFL-TD-yl7" firstAttribute="centerX" secondItem="Bkz-83-x2a" secondAttribute="centerX" id="v1n-W7-GzJ"/>
-                                                <constraint firstItem="GFL-TD-yl7" firstAttribute="centerX" secondItem="Bkz-83-x2a" secondAttribute="centerX" id="wxx-ur-9dJ"/>
                                             </constraints>
                                             <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="8" right="0.0"/>
                                         </tableViewCellContentView>
-                                        <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="GFL-TD-yl7" secondAttribute="bottom" id="Nlt-52-Fog"/>
-                                        </constraints>
                                         <connections>
                                             <outlet property="categoryImage" destination="mCT-de-yP2" id="bx3-Gb-gxx"/>
                                             <outlet property="categoryTitle" destination="2AA-2U-dq7" id="kEL-lD-H1n"/>
@@ -214,6 +199,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="NY3-XS-Qmr"/>
                     </view>
+                    <connections>
+                        <outlet property="productsCollection" destination="mCr-T8-WAd" id="b3e-gk-lXp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pvd-Z4-0hu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
